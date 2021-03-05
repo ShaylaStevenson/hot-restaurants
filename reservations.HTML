@@ -14,15 +14,40 @@
     <div class="position-relative">
         <div class="position-absolute top-0 start-50 translate-middle-x">
         <div class="jumbotron" style="text-align: center;">
-        <h1 class="display-4">Hot Restaurants</h1>
+        <h1 class="display-4"></i> Hot Restaurants</h1>
         <hr class="my-4">
         <h2>Make a reservation</h2>
         <p class="lead">
-          <a class="btn btn-primary btn-lg" href="#" role="button">View Tables</a>
-          <a class="btn btn-primary btn-lg" href="#" role="button"> <i class="fas fa-home fa-5x" ></i></a>
+        <button type="button" class="btn btn-primary">View Tables</button>
+        <button type="button" class="btn btn-primary">Home</button>
         </p>
       </div>
 
-    
-</body>
-</html>
+      <div class="container"> 
+        <form action="#"> 
+            <div class="form-group"> 
+                <label for="fname">Name:</label> 
+                <input type="text" class="form-control"
+                       id="name" placeholder="Enter Name"
+                       name="name"> 
+            </div> 
+              <div class="form-group"> 
+                <label for="lname">Phone Number:</label> 
+                <input type="text" class="form-control" id="pnumber"
+                    placeholder="Enter Phone Number" name="pnumber"> 
+            </div> 
+              <div class="form-group"> 
+                <label for="email">Email:</label> 
+                <input type="email" class="form-control" id="email" 
+                    placeholder="Enter Email" name="email"> 
+            </div> 
+              <div class="form-group"> 
+                <label for="contact">Unique ID:</label> 
+                <input type="text" class="form-control" id="Unique"
+                    placeholder="Enter Unique ID" name="Unique"> 
+            </div> 
+              <button type="submit" class="btn bg-info"> 
+                Submit 
+            </button> 
+        </form> 
+    </body>
