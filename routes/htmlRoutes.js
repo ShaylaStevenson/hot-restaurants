@@ -7,10 +7,10 @@ module.exports = (app) => {
     });
 
     app.get('/reservations', (req, res) => {
-        res.sendFirle(path.join(__dirname, 'reservation.HTML'));
+        res.sendFile(path.join(__dirname, 'reservation.HTML'));
     });
 
     app.get('*', (req, res) => {
-        res.sendFirle(path.join(__dirname, 'index.HTML'));
+        res.sendFile(path.join(__dirname, 'index.HTML'));
     });
 };
